@@ -1,0 +1,13 @@
+header {
+    background-color: #f8f8f8c4;
+    border-bottom: 1px solid #c72b2b;
+    padding: 20px;
+  } 
+
+  nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  
