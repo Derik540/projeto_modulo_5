@@ -1,13 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <title>Encontre a casa dos seus sonhos conosco - Imóveis Vanguarda</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="container">
+            <h1 style="text-align: center;",>Imóveis Vanguarda</h1>
+            <img src="/Assets/Vangurda.jpg" class="logo">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#buy">Compre</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#local">Endereço</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 style="text-align: center;"> Casa e apartamento 🏡 </h2>
+        <div class="main-container">
+            <div class="sub-container" id="buy">
+                <div class="card-info">
+                    <img src="/Assets/apartamento-1.jpg" alt="Foto do apartamento">
+                    <h2>Preço: R$ 900.000</h2>
+                    <ul>
+                        <li>Endereço: Rua desenvolvedores</li>
+                        <li>Área: 100 metros quadrados</li>
+                        <li>Número de quartos: 2</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-container">
+                <div class="card-info">
+                    <img src="/Assets/apartamento-2.jpg" alt="Foto do apartamento">
+                    <h2>Preço: R$ 600.000</h2>
+                    <ul>
+                        <li>Endereço: Rua desenvolvedores</li>
+                        <li>Área: 90 metros quadrados</li>
+                        <li>Número de quartos: 2</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="sub-container">
+                <div class="card-info">
+                    <img src="/Assets/apartamento-3.jpg" alt="Foto do apartamento">
+                    <h2>Preço: R$ 700.000</h2>
+                    <ul>
+                        <li>Endereço: Rua desenvolvedores</li>
+                        <li>Área: 80 metros quadrados</li>
+                        <li>Número de quartos: 3</li>
+
+                    </ul>
+    </main>
+    </div>
+
+    <form action="#" method="POST" id="contact">
+        <div class="form-container">
+            <h3>Entre em contato conosco 📋</h3>
+            <div class="form-group">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Endereço de e-mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="subject">Assunto</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar ! </button>
+            </div>
+        </div>
+    </form>
+    <br>
+    </div>
+    <footer>
+
+
+        <div class="map">
+            <h1 style="text-align: center;" id="local">Aonde pode nos encontrar 🌍</h1>
+            <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467692.0489038907!2d-46.87550004125811!3d-23.681531439331852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1680734897973!5m2!1spt-BR!2sbr"
+                style="border: 20px; width: 100%; max-width: 100%;" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <address>Brasil, São Paulo</address>
+        </div>
+
+    </footer>
+
 </body>
-</html>

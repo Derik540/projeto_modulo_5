@@ -1,0 +1,92 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #ffffff1e;
+  border-bottom: 1px solid #c72b2b;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-container {
+  width: 45%;
+}
+
+.card-info {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: stretch;
+  align-items: center;
+
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fffcfc;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff00c8;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  font-size: larger;
+  background-color: rgb(194, 194, 230);
+  padding: 10px;
+  border-radius: 20%;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
