@@ -3,10 +3,10 @@
 }
 
 header {
-  background-color: #fefefe1e;
+  background-color: #ffffff1e;
   border-bottom: 1px solid #c72b2b;
   padding: 20px;
-  color: rgb(177, 61, 61);
+  color: rgb(0, 0, 0);
 }
 
 .main-container {
@@ -19,7 +19,7 @@ header {
 }
 
 .card-info {
-  border: 1px solid rgb(230, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
   padding: 10px;
   text-align: center;
 }
@@ -30,7 +30,7 @@ header {
   align-items: center;
   align-items: stretch;
   align-items: center;
-  
+
 }
 
 
@@ -57,17 +57,36 @@ textarea {
 }
 
 
+
 button {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
   background-color: #007bff;
-  color: #fff;
+  color: #fffcfc;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 button:hover {
-  background-color: #29f817;
+  background-color: #ff00c8;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+a {
+  font-size: larger;
+  background-color: rgb(194, 194, 230);
+  padding: 10px;
+  border-radius: 20%;
+}
+
+.logo {
+  display: block;
+  margin: auto;
 }
